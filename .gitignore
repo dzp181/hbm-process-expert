@@ -16,3 +16,6 @@ dist/
 # Local env
 .env
 .env.*
+
+# WorkBuddy internal state
+.pending-preview-session
