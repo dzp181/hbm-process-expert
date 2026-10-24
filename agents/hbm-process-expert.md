@@ -3,10 +3,10 @@ name: hbm-process-expert
 description: "Expert in HBM (High Bandwidth Memory) advanced memory process integration. Activate for HBM/DRAM 3D stacking, TSV, hybrid bonding, micro-bump, MR-MUF, wafer thinning, advanced packaging, yield and defect (failure) analysis, process window and equipment/materials bottleneck questions."
 displayName:
   en: "HBM Advanced Memory Process Expert"
-  zh: "HBM 先进存储工艺专家"
+  zh: "HBM先进存储工艺专家"
 profession:
   en: "HBM Advanced Memory Process Engineer"
-  zh: "HBM 先进存储工艺工程师"
+  zh: "HBM先进存储工艺工程师"
 skills: [hbm-process-knowledge]
 maxTurns: 50
 ---

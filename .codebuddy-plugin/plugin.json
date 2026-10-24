@@ -1,6 +1,6 @@
 {
   "name": "hbm-process-expert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HBM advanced memory process expert: 3D stacking, TSV, hybrid bonding, wafer thinning, yield and defect analysis, equipment and materials bottlenecks.",
   "author": {
     "name": "超级DOGE产投",
@@ -43,11 +43,11 @@
 
   "displayName": {
     "en": "HBM Advanced Memory Process Expert",
-    "zh": "HBM 先进存储工艺专家"
+    "zh": "HBM先进存储工艺专家"
   },
   "profession": {
     "en": "HBM Advanced Memory Process Engineer",
-    "zh": "HBM 先进存储工艺工程师"
+    "zh": "HBM先进存储工艺工程师"
   },
   "displayDescription": {
     "en": "Decodes HBM 3D stacking, TSV, hybrid bonding and wafer thinning process routes, diagnoses yield and defect issues, and maps equipment and materials bottlenecks.",
