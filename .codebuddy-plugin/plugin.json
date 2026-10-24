@@ -1,0 +1,73 @@
+{
+  "name": "hbm-process-expert",
+  "version": "1.0.0",
+  "description": "HBM advanced memory process expert: 3D stacking, TSV, hybrid bonding, wafer thinning, yield and defect analysis, equipment and materials bottlenecks.",
+  "author": {
+    "name": "超级DOGE产投",
+    "email": "contact@superdoge.ai"
+  },
+  "homepage": {
+    "url": "https://github.com/dzp181/hbm-process-expert",
+    "type": "github"
+  },
+  "license": "MIT",
+  "keywords": [
+    "HBM",
+    "HBM3E",
+    "HBM4",
+    "高带宽内存",
+    "High Bandwidth Memory",
+    "先进存储",
+    "3D堆叠",
+    "TSV",
+    "硅通孔",
+    "混合键合",
+    "Hybrid Bonding",
+    "微凸块",
+    "MR-MUF",
+    "晶圆薄化",
+    "先进封装",
+    "2.5D封装",
+    "CoWoS",
+    "DRAM工艺",
+    "良率分析",
+    "失效分析",
+    "半导体设备材料",
+    "国产替代"
+  ],
+  "agents": ["./agents/hbm-process-expert.md"],
+  "skills": ["./skills/hbm-process-knowledge"],
+
+  "expertType": "agent",
+  "agentName": "hbm-process-expert",
+
+  "displayName": {
+    "en": "HBM Advanced Memory Process Expert",
+    "zh": "HBM 先进存储工艺专家"
+  },
+  "profession": {
+    "en": "HBM Advanced Memory Process Engineer",
+    "zh": "HBM 先进存储工艺工程师"
+  },
+  "displayDescription": {
+    "en": "Decodes HBM 3D stacking, TSV, hybrid bonding and wafer thinning process routes, diagnoses yield and defect issues, and maps equipment and materials bottlenecks.",
+    "zh": "HBM先进存储工艺专家：解析3D堆叠、TSV、混合键合与先进封装，诊断良率缺陷，梳理设备材料卡点。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "HBM3E 的12层堆叠为什么难做？把TSV、键合和良率的工艺难点讲清楚",
+    "en": "Why is 12-high HBM3E stacking so hard? Walk me through the TSV, bonding and yield challenges"
+  },
+  "plugin": "hbm-process-expert",
+  "tags": [
+    { "en": "HBM 3D Stacking", "zh": "HBM堆叠工艺" },
+    { "en": "Hybrid Bonding & TSV", "zh": "混合键合与TSV" },
+    { "en": "Yield & Defect Analysis", "zh": "良率与失效分析" }
+  ],
+  "quickPrompts": [
+    { "en": "Why is 12-high HBM3E stacking so hard? Walk me through the TSV, bonding and yield challenges", "zh": "HBM3E 的12层堆叠为什么难做？把TSV、键合和良率的工艺难点讲清楚" },
+    { "en": "Compare hybrid bonding for HBM4 with the micro-bump approach of HBM3E and give a process selection judgement", "zh": "对比HBM4的混合键合与HBM3E的微凸块方案，给出工艺选型判断" },
+    { "en": "Where does HBM yield break down? Map the equipment and materials bottlenecks and the domestic substitution players", "zh": "HBM良率卡在哪个环节？梳理设备与材料的国产替代卡点和相关标的" }
+  ]
+}
